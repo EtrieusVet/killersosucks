@@ -37,30 +37,26 @@ html, body {
 /* Different colors for each diamond */
 .svg-wrapper.red .shape {
     stroke: #ff4c4c; /* Red */
-    stroke-dashoffset: 20;
 }
 .svg-wrapper.green .shape {
     stroke: #4caf50; /* Green */
-    stroke-dashoffset: 50;
 }
 .svg-wrapper.blue .shape {
     stroke: #2196f3; /* Blue */
-    stroke-dashoffset: 10;
 }
 .svg-wrapper.yellow .shape {
     stroke: #ffeb3b; /* Yellow */
-    stroke-dashoffset: 30;
 }
 .svg-wrapper.purple .shape {
     stroke: #9c27b0; /* Purple */
-    stroke-dashoffset: 20;
 }
-
 
 
 .svg-wrapper.red {
     top: -160px;
     left: 50%; /* First one higher */
+    stroke-dasharray: 120 5;
+    stroke-dashoffset: 60;
 }
 .svg-wrapper.green {
     top: -90px; /* Second one lower */
@@ -104,8 +100,8 @@ html, body {
 }
 
 .shape:hover {
-    stroke-width: 6px;
+    stroke-width: 2px;
     stroke-dashoffset: 0;
-    stroke-dasharray: 690;
+    stroke-dasharray: 650;
 }
 
