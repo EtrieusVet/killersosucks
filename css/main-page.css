@@ -1,8 +1,10 @@
-@font-face {
+@font-face
+{
     font-family: AzereteMono;
     src: url('../fonts/AzereteMono.ttf');
-  }
-html, body {
+}
+html, body
+{
     background: rgb(20,20,20);
     text-align: center;
     height: 100%;
